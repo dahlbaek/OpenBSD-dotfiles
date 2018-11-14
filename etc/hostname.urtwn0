@@ -1,0 +1,3 @@
+dhcp
+nwid my_network_id
+wpakey my_key

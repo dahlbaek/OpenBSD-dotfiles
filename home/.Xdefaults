@@ -1,0 +1,10 @@
+! $OpenBSD: dot.Xdefaults,v 1.3 2014/07/10 10:22:59 jasper Exp $
+XTerm*locale: utf8
+XTerm*selectToClipboard: true
+xterm*background: black
+xterm*foreground: white
+xterm*faceName: M+ 1m
+xterm*faceSize: 14
+XTerm.vt100.translations:  #override          \n\
+  Ctrl <Key> minus:        smaller-vt-font()  \n\
+  Ctrl <Key> plus:         larger-vt-font()
